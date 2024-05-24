@@ -7,10 +7,10 @@ def blink_led(delay):
     led.init()
 
     led.set_output(0, 1)
-    time.sleep(delay)
+    time.sleep(delay/2)
 
     led.set_output(0, 0)
-    time.sleep(delay)
+    time.sleep(delay/2)
 
 
 def main():
